@@ -304,3 +304,4 @@ You can also run the application using Docker to simplify setup and deployment.
 
 This application uses Laravel Echo and Pusher for real-time updates. Ensure you have configured your Pusher credentials
 in the `.env` file.
+# task-manager
