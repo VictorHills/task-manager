@@ -25,7 +25,7 @@ robust and extensive test.
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/task-manager.git
+    git clone https://github.com/VictorHills/task-manager.git
     cd task-manager
     ```
 
