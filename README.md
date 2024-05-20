@@ -73,17 +73,21 @@ robust and extensive test.
     php artisan test 
     ```
 
-9. **Run the project:**
+9. **Seed the Database:**
 
     ```bash
-    php artisan serve
+    php artisan seed 
     ```
 
-10. **Run the WebSocket server:**
+10. **Run the project:**
 
      ```bash
-     npm run dev
+     php artisan serve
      ```
+
+11.  **Access the application:**
+
+    Open your web browser and navigate to `http://localhost`.
 
 ## Alternatively running the Application with Docker
 
@@ -109,10 +113,21 @@ You can also run the application using Docker to simplify setup and deployment.
     ```bash
     docker-compose exec app php artisan migrate
     docker-compose exec app php artisan passport:install
-    docker-compose exec app php artisan test
     ```
 
-3. **Access the application:**
+3. **Test the application:**
+
+    ```bash
+    docker-compose exec app php artisan test 
+    ```
+
+4. **Seed the Database:**
+
+    ```bash
+    docker-compose exec app php artisan seed 
+    ```
+
+5. **Access the application:**
 
    Open your web browser and navigate to `http://localhost`.
 
