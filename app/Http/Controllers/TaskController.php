@@ -148,7 +148,7 @@ class TaskController extends Controller
 
             return $this->respondSuccessWithData('Task has been deleted successfully', new TaskResource($task));
         } catch (QueryException) {
-            return $this->respondBadRequest('Tasks not updated successfully, please contact admin');
+            return $this->respondBadRequest('Tasks not deleted successfully, please contact admin');
         } catch (Exception $exception) {
             return $this->respondBadRequest($exception->getMessage());
         }
