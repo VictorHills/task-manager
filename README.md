@@ -198,7 +198,14 @@ You can also run the application using Docker to simplify setup and deployment.
                 "description": "This is a sample task",
                 "completed": false,
                 "created_at": "2024-05-17T15:09:54.000000Z",
-                "updated_at": "2024-05-17T15:09:54.000000Z"
+                "updated_at": "2024-05-17T15:09:54.000000Z",
+                "user_details": {
+                    "id": 1,
+                    "name": "John Doe",
+                    "email": "johndoe@example.com",
+                    "created_at": "2024-05-17T15:09:54.000000Z",
+                    "updated_at": "2024-05-17T15:09:54.000000Z"
+                }
             }
         ]
     }
@@ -228,7 +235,14 @@ You can also run the application using Docker to simplify setup and deployment.
             "description": "Task description",
             "completed": false,
             "created_at": "2024-05-17T15:09:54.000000Z",
-            "updated_at": "2024-05-17T15:09:54.000000Z"
+            "updated_at": "2024-05-17T15:09:54.000000Z",
+            "user_details": {
+                "id": 1,
+                "name": "John Doe",
+                "email": "johndoe@example.com",
+                "created_at": "2024-05-17T15:09:54.000000Z",
+                "updated_at": "2024-05-17T15:09:54.000000Z"
+            }
         }
     }
     ```
@@ -247,7 +261,14 @@ You can also run the application using Docker to simplify setup and deployment.
             "description": "This is a sample task",
             "completed": false,
             "created_at": "2024-05-17T15:09:54.000000Z",
-            "updated_at": "2024-05-17T15:09:54.000000Z"
+            "updated_at": "2024-05-17T15:09:54.000000Z",
+            "user_details": {
+                "id": 1,
+                "name": "John Doe",
+                "email": "johndoe@example.com",
+                "created_at": "2024-05-17T15:09:54.000000Z",
+                "updated_at": "2024-05-17T15:09:54.000000Z"
+            }
         }
     }
     ```
@@ -276,7 +297,14 @@ You can also run the application using Docker to simplify setup and deployment.
             "description": "Updated description",
             "completed": true,
             "created_at": "2024-05-17T15:09:54.000000Z",
-            "updated_at": "2024-05-17T15:09:54.000000Z"
+            "updated_at": "2024-05-17T15:09:54.000000Z",
+            "user_details": {
+                "id": 1,
+                "name": "John Doe",
+                "email": "johndoe@example.com",
+                "created_at": "2024-05-17T15:09:54.000000Z",
+                "updated_at": "2024-05-17T15:09:54.000000Z"
+            }
         }
     }
     ```
@@ -295,7 +323,14 @@ You can also run the application using Docker to simplify setup and deployment.
             "description": "This is a sample task",
             "completed": false,
             "created_at": "2024-05-17T15:09:54.000000Z",
-            "updated_at": "2024-05-17T15:09:54.000000Z"
+            "updated_at": "2024-05-17T15:09:54.000000Z",
+            "user_details": {
+                "id": 1,
+                "name": "John Doe",
+                "email": "johndoe@example.com",
+                "created_at": "2024-05-17T15:09:54.000000Z",
+                "updated_at": "2024-05-17T15:09:54.000000Z"
+            }
         }
     }
     ```
@@ -304,4 +339,5 @@ You can also run the application using Docker to simplify setup and deployment.
 
 This application uses Laravel Echo and Pusher for real-time updates. Ensure you have configured your Pusher credentials
 in the `.env` file.
+
 # task-manager
